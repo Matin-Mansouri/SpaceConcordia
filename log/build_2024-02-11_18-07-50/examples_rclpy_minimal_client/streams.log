@@ -1,0 +1,31 @@
+[2.370s] Invoking command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_client': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps install_data
+[3.718s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.718s]   warnings.warn(
+[3.718s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.719s]   warnings.warn(
+[3.719s] running develop
+[3.719s] running egg_info
+[3.719s] creating examples_rclpy_minimal_client.egg-info
+[3.719s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[3.720s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[3.720s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[3.720s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[3.720s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[3.720s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.720s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.721s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.721s] running build_ext
+[3.721s] Creating /home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[3.721s] Installing client script to /home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.722s] Installing client_async script to /home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.722s] Installing client_async_callback script to /home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.722s] Installing client_async_member_function script to /home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.722s] 
+[3.722s] Installed /home/matin/ros2_ws/build/examples_rclpy_minimal_client
+[3.722s] running install_data
+[3.723s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index
+[3.723s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[3.723s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[3.723s] copying resource/examples_rclpy_minimal_client -> /home/matin/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[3.723s] copying package.xml -> /home/matin/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[3.908s] Invoked command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_client' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps install_data

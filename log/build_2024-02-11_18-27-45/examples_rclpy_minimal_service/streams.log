@@ -1,0 +1,44 @@
+[2.857s] Invoking command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_service': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build
+[3.276s] running develop
+[3.276s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.277s]   warnings.warn(
+[3.280s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.281s]   warnings.warn(
+[3.525s] Removing /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[3.589s] Invoked command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_service' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build
+[3.594s] Invoking command in '/home/matin/ros2_ws/src/examples/rclpy/services/minimal_service': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/matin/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[3.932s] running egg_info
+[3.933s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[3.933s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[3.934s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[3.934s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[3.934s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[3.936s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.938s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.938s] running build
+[3.938s] running build_py
+[3.939s] creating /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build
+[3.939s] creating /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[3.939s] creating /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[3.939s] copying examples_rclpy_minimal_service/__init__.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[3.940s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[3.940s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.940s]   warnings.warn(
+[3.941s] copying examples_rclpy_minimal_service/service.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[3.941s] running install
+[3.941s] running install_lib
+[3.941s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[3.942s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[3.942s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[3.942s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[3.942s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[3.943s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[3.943s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[3.943s] running install_data
+[3.944s] running install_egg_info
+[3.947s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+[3.949s] running install_scripts
+[3.987s] Installing service script to /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.988s] Installing service_member_function script to /home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.988s] writing list of installed files to '/home/matin/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[4.040s] Invoked command in '/home/matin/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/matin/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/matin/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

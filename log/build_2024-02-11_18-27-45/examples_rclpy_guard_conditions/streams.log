@@ -1,0 +1,40 @@
+[5.605s] Invoking command in '/home/matin/ros2_ws/build/examples_rclpy_guard_conditions': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build
+[6.126s] running develop
+[6.127s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.127s]   warnings.warn(
+[6.131s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.131s]   warnings.warn(
+[6.452s] Removing /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[6.634s] Invoked command in '/home/matin/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build
+[6.637s] Invoking command in '/home/matin/ros2_ws/src/examples/rclpy/guard_conditions': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed
+[7.357s] running egg_info
+[7.359s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[7.359s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[7.359s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[7.360s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[7.360s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[7.361s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[7.361s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[7.361s] running build
+[7.362s] running build_py
+[7.362s] creating /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build
+[7.362s] creating /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build/lib
+[7.363s] creating /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[7.363s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[7.363s] copying examples_rclpy_guard_conditions/__init__.py -> /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[7.364s] running install
+[7.365s] running install_lib
+[7.365s] creating /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[7.365s] copying /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[7.366s] copying /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[7.367s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[7.367s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[7.368s] running install_data
+[7.369s] running install_egg_info
+[7.370s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+[7.370s] running install_scripts
+[7.370s] Installing trigger_guard_condition script to /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[7.370s] writing list of installed files to '/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/install.log'
+[7.370s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.371s]   warnings.warn(
+[7.634s] Invoked command in '/home/matin/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed

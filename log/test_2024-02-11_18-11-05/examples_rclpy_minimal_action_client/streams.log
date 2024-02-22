@@ -1,0 +1,22 @@
+[1.364s] Invoking command in '/home/matin/ros2_ws/src/examples/rclpy/actions/minimal_action_client': AMENT_PREFIX_PATH=/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/matin/ros2_ws/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/matin/ros2_ws/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_action_client:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.186s] [1m============================= test session starts ==============================[0m
+[2.187s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.187s] cachedir: /home/matin/ros2_ws/build/examples_rclpy_minimal_action_client/.pytest_cache
+[2.187s] rootdir: /home/matin/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[2.187s] plugins: ament-lint-0.12.10, ament-copyright-0.12.10, launch-testing-1.0.4, ament-xmllint-0.12.10, ament-pep257-0.12.10, launch-testing-ros-0.19.7, ament-flake8-0.12.10, cov-3.0.0, colcon-core-0.15.1
+[2.187s] [1mcollecting ... [0m[1m
+[2.188s] collected 3 items                                                              [0m
+[2.188s] 
+[2.752s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.951s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[3.006s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[3.007s] 
+[3.007s] [33m=============================== warnings summary ===============================[0m
+[3.007s] actions/minimal_action_client/test/test_flake8.py::test_flake8
+[3.008s] actions/minimal_action_client/test/test_flake8.py::test_flake8
+[3.008s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[3.008s] 
+[3.008s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[3.009s] - generated xml file: /home/matin/ros2_ws/build/examples_rclpy_minimal_action_client/pytest.xml -
+[3.009s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 1.04s[0m[33m =========================[0m
+[3.744s] Invoked command in '/home/matin/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': AMENT_PREFIX_PATH=/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTEST_ADDOPTS=--tb=short --junit-xml=/home/matin/ros2_ws/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/matin/ros2_ws/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_action_client:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

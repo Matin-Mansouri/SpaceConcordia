@@ -1,0 +1,4 @@
+Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_wait_set
+Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_wait_set

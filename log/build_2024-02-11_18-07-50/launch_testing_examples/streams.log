@@ -1,0 +1,27 @@
+[1.579s] Invoking command in '/home/matin/ros2_ws/build/launch_testing_examples': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/launch_testing_examples/prefix_override:/home/matin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/launch_testing_examples/build --no-deps install_data
+[2.105s] running develop
+[2.106s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.106s]   warnings.warn(
+[2.110s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.110s]   warnings.warn(
+[2.401s] running egg_info
+[2.402s] creating launch_testing_examples.egg-info
+[2.402s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.403s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.403s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.404s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.404s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.404s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.408s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.410s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.412s] running build_ext
+[2.413s] Creating /home/matin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.415s] 
+[2.415s] Installed /home/matin/ros2_ws/build/launch_testing_examples
+[2.415s] running install_data
+[2.416s] creating /home/matin/ros2_ws/install/launch_testing_examples/share/ament_index
+[2.416s] creating /home/matin/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[2.416s] creating /home/matin/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.417s] copying resource/launch_testing_examples -> /home/matin/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.417s] copying package.xml -> /home/matin/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[2.486s] Invoked command in '/home/matin/ros2_ws/build/launch_testing_examples' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/launch_testing_examples/prefix_override:/home/matin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/launch_testing_examples/build --no-deps install_data

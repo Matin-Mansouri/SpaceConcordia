@@ -1,0 +1,23 @@
+[0.436s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_async_client -- -j8 -l8
+[0.580s] [100%] Built target client_main
+[0.602s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_async_client -- -j8 -l8
+[0.683s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_async_client
+[0.702s] -- Install configuration: ""
+[0.702s] -- Execute custom install script
+[0.702s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[0.703s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[0.703s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[0.703s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[0.704s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[0.704s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[0.704s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[0.706s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[0.706s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[0.707s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[0.708s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[0.708s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[0.729s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[0.730s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[0.730s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[0.730s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[0.807s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_async_client

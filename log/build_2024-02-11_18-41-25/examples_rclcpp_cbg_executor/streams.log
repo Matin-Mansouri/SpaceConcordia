@@ -1,0 +1,30 @@
+[0.418s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[0.543s] [ 30%] Built target pong
+[0.543s] [ 60%] Built target ping
+[0.543s] [100%] Built target ping_pong
+[0.559s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[0.674s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.698s] -- Install configuration: ""
+[0.699s] -- Execute custom install script
+[0.699s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.699s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.699s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.700s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.700s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.700s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.700s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.701s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.701s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.701s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.702s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[0.702s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[0.703s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[0.703s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[0.704s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[0.704s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[0.713s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[0.714s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.714s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[0.715s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[0.715s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[0.957s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_cbg_executor

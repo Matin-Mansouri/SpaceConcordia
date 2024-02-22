@@ -1,0 +1,48 @@
+[3.856s] Invoking command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[4.307s] running develop
+[4.308s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.308s]   warnings.warn(
+[4.316s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.316s]   warnings.warn(
+[4.652s] Removing /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[4.714s] Invoked command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[4.717s] Invoking command in '/home/matin/ros2_ws/src/examples/rclpy/topics/minimal_publisher': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[5.062s] running egg_info
+[5.063s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[5.063s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[5.064s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[5.064s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[5.064s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[5.066s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.068s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.068s] running build
+[5.068s] running build_py
+[5.068s] creating /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[5.069s] creating /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[5.069s] creating /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.069s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.070s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.070s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.072s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[5.072s] running install
+[5.073s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.073s]   warnings.warn(
+[5.073s] running install_lib
+[5.074s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[5.075s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[5.075s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[5.075s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[5.075s] copying /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[5.076s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[5.078s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[5.078s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[5.079s] byte-compiling /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[5.079s] running install_data
+[5.080s] running install_egg_info
+[5.082s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info
+[5.083s] running install_scripts
+[5.116s] Installing publisher_local_function script to /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.117s] Installing publisher_member_function script to /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.117s] Installing publisher_old_school script to /home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.117s] writing list of installed files to '/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[5.159s] Invoked command in '/home/matin/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/matin/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

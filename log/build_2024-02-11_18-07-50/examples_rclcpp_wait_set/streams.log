@@ -1,0 +1,119 @@
+[0.274s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake /home/matin/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matin/ros2_ws/install/examples_rclcpp_wait_set
+[10.952s] -- The C compiler identification is GNU 11.4.0
+[10.952s] -- The CXX compiler identification is GNU 11.4.0
+[10.952s] -- Detecting C compiler ABI info
+[10.952s] -- Detecting C compiler ABI info - done
+[10.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.952s] -- Detecting C compile features
+[10.953s] -- Detecting C compile features - done
+[10.953s] -- Detecting CXX compiler ABI info
+[10.953s] -- Detecting CXX compiler ABI info - done
+[10.953s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.953s] -- Detecting CXX compile features
+[10.954s] -- Detecting CXX compile features - done
+[10.954s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.954s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.954s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.954s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[10.954s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.955s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.955s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.955s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[10.955s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.955s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.956s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.076s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.096s] -- Looking for pthread.h
+[11.419s] -- Looking for pthread.h - found
+[11.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.667s] -- Found Threads: TRUE  
+[12.132s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[12.318s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.486s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.544s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.545s] -- Configured cppcheck include dirs: /home/matin/ros2_ws/src/examples/rclcpp/wait_set/include
+[12.545s] -- Configured cppcheck exclude dirs and/or files: 
+[12.548s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.548s] -- Configured cpplint exclude dirs and/or files: 
+[12.549s] -- Added test 'lint_cmake' to check CMake code style
+[12.553s] -- Added test 'uncrustify' to check C / C++ code style
+[12.553s] -- Configured uncrustify additional arguments: 
+[12.554s] -- Added test 'xmllint' to check XML markup files
+[12.555s] -- Configuring done
+[12.666s] -- Generating done
+[12.671s] -- Build files have been written to: /home/matin/ros2_ws/build/examples_rclcpp_wait_set
+[14.033s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake /home/matin/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matin/ros2_ws/install/examples_rclcpp_wait_set
+[14.035s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[14.310s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[26.062s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[26.604s] [  8%] Built target talker
+[26.641s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[42.675s] [ 16%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[43.289s] [ 16%] Built target wait_set_topics_and_timer
+[43.309s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[55.186s] [ 25%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[55.829s] [ 25%] Built target wait_set_random_order
+[55.850s] [ 29%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[66.649s] [ 33%] [32m[1mLinking CXX executable executor_random_order[0m
+[67.366s] [ 33%] Built target executor_random_order
+[67.399s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[67.401s] [ 41%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[67.402s] [ 45%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[90.977s] [ 50%] [32m[1mLinking CXX executable static_wait_set[0m
+[91.884s] [ 50%] Built target static_wait_set
+[92.088s] [ 54%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[92.228s] [ 58%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[92.805s] [ 58%] Built target wait_set_topics_with_different_rates
+[93.018s] [ 58%] Built target thread_safe_wait_set
+[93.043s] [ 62%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[106.940s] [ 66%] [32m[1mLinking CXX executable wait_set[0m
+[107.664s] [ 66%] Built target wait_set
+[107.687s] [ 75%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[107.687s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[107.687s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[112.141s] [ 83%] [32m[1mLinking CXX executable wait_set_talker[0m
+[112.204s] [ 87%] [32m[1mLinking CXX executable wait_set_listener[0m
+[112.373s] [ 87%] Built target wait_set_talker
+[112.453s] [ 87%] Built target wait_set_listener
+[119.845s] [ 91%] [32m[1mLinking CXX shared library liblistener.so[0m
+[120.500s] [ 91%] Built target listener
+[120.520s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[124.052s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[124.323s] [100%] Built target wait_set_composed
+[124.341s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[124.408s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_wait_set
+[124.414s] -- Install configuration: ""
+[124.415s] -- Execute custom install script
+[124.416s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[124.424s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[124.432s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[124.442s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[124.451s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[124.460s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[124.470s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[124.479s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[124.489s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[124.499s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[124.508s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[124.516s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[124.525s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[124.534s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[124.545s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[124.554s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[124.563s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[124.572s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[124.580s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[124.588s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[124.596s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[124.605s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[124.613s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[124.621s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[124.630s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[124.640s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[124.648s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[124.657s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[124.667s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_wait_set

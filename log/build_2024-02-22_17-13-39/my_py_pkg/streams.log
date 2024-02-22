@@ -1,0 +1,17 @@
+[0.795s] Invoking command in '/home/matin/ros2_ws/build/my_py_pkg': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/my_py_pkg/prefix_override:/home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.085s] running develop
+[1.252s] running egg_info
+[1.252s] writing my_py_pkg.egg-info/PKG-INFO
+[1.253s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.253s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.253s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.253s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.255s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.256s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.257s] running build_ext
+[1.258s] Creating /home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.259s] Installing robot_news_station script to /home/matin/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.259s] 
+[1.259s] Installed /home/matin/ros2_ws/build/my_py_pkg
+[1.259s] running install_data
+[1.289s] Invoked command in '/home/matin/ros2_ws/build/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/my_py_pkg/prefix_override:/home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,22 @@
+[0.967s] Invoking command in '/home/matin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake /home/matin/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/matin/ros2_ws/install/my_cpp_pkg
+[1.326s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.972s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.972s]   By not providing "Findeclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[1.973s]   asked CMake to find a package configuration file provided by "eclcpp", but
+[1.973s]   CMake did not find one.
+[1.974s] 
+[1.974s]   Could not find a package configuration file provided by "eclcpp" with any
+[1.974s]   of the following names:
+[1.974s] 
+[1.976s]     eclcppConfig.cmake
+[1.976s]     eclcpp-config.cmake
+[1.977s] 
+[1.977s]   Add the installation prefix of "eclcpp" to CMAKE_PREFIX_PATH or set
+[1.977s]   "eclcpp_DIR" to a directory containing one of the above files.  If "eclcpp"
+[1.977s]   provides a separate development package or SDK, be sure it has been
+[1.978s]   installed.
+[1.978s] 
+[1.986s] [0m
+[1.986s] -- Configuring incomplete, errors occurred!
+[1.986s] See also "/home/matin/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[1.986s] Invoked command in '/home/matin/ros2_ws/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake /home/matin/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/matin/ros2_ws/install/my_cpp_pkg

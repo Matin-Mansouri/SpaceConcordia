@@ -1,0 +1,28 @@
+[2.031s] Invoking command in '/home/matin/ros2_ws/src/examples/rclpy/executors': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/matin/ros2_ws/build/examples_rclpy_executors/build install --record /home/matin/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[2.360s] running egg_info
+[2.362s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.362s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.362s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.362s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.363s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.365s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.368s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.368s] running build
+[2.368s] running build_py
+[2.369s] running install
+[2.369s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.369s]   warnings.warn(
+[2.372s] running install_lib
+[2.373s] running install_data
+[2.373s] running install_egg_info
+[2.379s] removing '/home/matin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info' (and everything under it)
+[2.379s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info
+[2.379s] running install_scripts
+[2.409s] Installing callback_group script to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.410s] Installing composed script to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.410s] Installing custom_callback_group script to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.411s] Installing custom_executor script to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.412s] Installing listener script to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.413s] Installing talker script to /home/matin/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.413s] writing list of installed files to '/home/matin/ros2_ws/build/examples_rclpy_executors/install.log'
+[3.097s] Invoked command in '/home/matin/ros2_ws/src/examples/rclpy/executors' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/matin/ros2_ws/build/examples_rclpy_executors/build install --record /home/matin/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

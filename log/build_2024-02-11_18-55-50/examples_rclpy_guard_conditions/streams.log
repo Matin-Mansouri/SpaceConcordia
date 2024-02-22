@@ -1,0 +1,21 @@
+[3.094s] Invoking command in '/home/matin/ros2_ws/src/examples/rclpy/guard_conditions': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed
+[3.438s] running egg_info
+[3.440s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.440s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.441s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.441s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.441s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[3.443s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.445s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.445s] running build
+[3.445s] running build_py
+[3.445s] running install
+[3.446s] running install_lib
+[3.447s] running install_data
+[3.447s] running install_egg_info
+[3.450s] removing '/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info' (and everything under it)
+[3.451s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+[3.454s] running install_scripts
+[3.482s] Installing trigger_guard_condition script to /home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[3.483s] writing list of installed files to '/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/install.log'
+[4.377s] Invoked command in '/home/matin/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/matin/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed

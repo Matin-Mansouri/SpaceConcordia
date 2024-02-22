@@ -1,0 +1,3 @@
+[console_scripts]
+robot_news_station = my_py_pkg.robot_news_station:main
+

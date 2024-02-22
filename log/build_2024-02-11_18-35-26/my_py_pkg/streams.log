@@ -1,0 +1,35 @@
+[1.975s] Invoking command in '/home/matin/ros2_ws/src/my_py_pkg': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/my_py_pkg/prefix_override:/home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/matin/ros2_ws/build/my_py_pkg/build install --record /home/matin/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.233s] running egg_info
+[2.234s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.234s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.235s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.236s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.236s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.236s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.237s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.238s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.239s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.240s] running build
+[2.240s] running build_py
+[2.241s] creating /home/matin/ros2_ws/build/my_py_pkg/build
+[2.241s] creating /home/matin/ros2_ws/build/my_py_pkg/build/lib
+[2.242s] creating /home/matin/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.242s] copying my_py_pkg/__init__.py -> /home/matin/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.243s] running install
+[2.245s] running install_lib
+[2.245s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.246s]   warnings.warn(
+[2.246s] creating /home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.247s] copying /home/matin/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.247s] byte-compiling /home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.247s] running install_data
+[2.248s] creating /home/matin/ros2_ws/install/my_py_pkg/share/ament_index
+[2.248s] creating /home/matin/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.248s] creating /home/matin/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.248s] copying resource/my_py_pkg -> /home/matin/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.248s] copying package.xml -> /home/matin/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.248s] running install_egg_info
+[2.249s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.251s] running install_scripts
+[2.273s] writing list of installed files to '/home/matin/ros2_ws/build/my_py_pkg/install.log'
+[2.368s] Invoked command in '/home/matin/ros2_ws/src/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/my_py_pkg/prefix_override:/home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/matin/ros2_ws/build/my_py_pkg/build install --record /home/matin/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

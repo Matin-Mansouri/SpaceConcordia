@@ -1,0 +1,30 @@
+[2.602s] Invoking command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[3.985s] running develop
+[3.985s] running egg_info
+[3.985s] creating examples_rclpy_minimal_subscriber.egg-info
+[3.986s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[3.986s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[3.986s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[3.986s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[3.987s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[3.987s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.987s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.988s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.988s] running build_ext
+[3.988s] Creating /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[3.988s] Installing subscriber_lambda script to /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[3.989s] Installing subscriber_member_function script to /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[3.989s] Installing subscriber_old_school script to /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[3.989s] 
+[3.989s] Installed /home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber
+[3.990s] running install_data
+[3.990s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[3.990s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[3.990s] creating /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[3.991s] copying resource/examples_rclpy_minimal_subscriber -> /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[3.992s] copying package.xml -> /home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[3.993s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.994s]   warnings.warn(
+[3.995s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.996s]   warnings.warn(
+[4.158s] Invoked command in '/home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': CONDA_PROMPT_MODIFIER=(SpaceConcordia) PYTHONPATH=/home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matin/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

@@ -1,0 +1,46 @@
+[0.562s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[1.029s] [ 12%] Built target wait_set_talker
+[1.029s] [ 16%] Built target listener
+[1.030s] [ 25%] Built target talker
+[1.030s] [ 33%] Built target wait_set_topics_and_timer
+[1.032s] [ 41%] Built target wait_set
+[1.033s] [ 58%] Built target static_wait_set
+[1.034s] [ 58%] Built target wait_set_listener
+[1.034s] [ 66%] Built target thread_safe_wait_set
+[1.034s] [ 75%] Built target executor_random_order
+[1.034s] [ 91%] Built target wait_set_topics_with_different_rates
+[1.034s] [ 87%] Built target wait_set_random_order
+[1.034s] [100%] Built target wait_set_composed
+[1.039s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --build /home/matin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[2.142s] Invoking command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_wait_set
+[2.188s] -- Install configuration: ""
+[2.188s] -- Execute custom install script
+[2.188s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[2.188s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[2.190s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[2.190s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[2.191s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[2.191s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[2.191s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[2.192s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[2.192s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[2.192s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[2.193s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[2.193s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[2.194s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[2.194s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[2.195s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[2.195s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[2.195s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[2.196s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[2.197s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[2.198s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[2.198s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[2.198s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[2.199s] -- Symlinking: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[2.201s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[2.201s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[2.201s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[2.201s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[2.202s] -- Up-to-date symlink: /home/matin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[2.447s] Invoked command in '/home/matin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(SpaceConcordia) /usr/bin/cmake --install /home/matin/ros2_ws/build/examples_rclcpp_wait_set
