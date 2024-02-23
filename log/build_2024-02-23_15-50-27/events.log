@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000555] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000680] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000813] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.069936] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.071009] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.072217] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matin/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/matin/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(SpaceConcordia)'), ('USER', 'matin'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/matin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/matin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matin'), ('OLDPWD', '/home/matin'), ('LESS', '-R'), ('CONDA_SHLVL', '6'), ('ZSH', '/home/matin/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/matin/ros2_ws/install'), ('LOGNAME', 'matin'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/57782_interop'), ('NAME', 'Matin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/matin/miniconda3/envs/SpaceConcordia/bin:/home/matin/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/matin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matin/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('WT_SESSION', '8a158ae6-b30a-493d-b694-e539b8bba7e6'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('CONDA_PREFIX_1', '/home/matin/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CONDA_PREFIX_2', '/home/matin/miniconda3/envs/SpaceConcordia'), ('CONDA_PYTHON_EXE', '/home/matin/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/home/matin/ros2_ws/install/my_py_pkg:/home/matin/ros2_ws/install/my_cpp_pkg:/home/matin/ros2_ws/install/launch_testing_examples:/home/matin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclpy_minimal_service:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_client:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions:/home/matin/ros2_ws/install/examples_rclpy_executors:/home/matin/ros2_ws/install/examples_rclcpp_wait_set:/home/matin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/matin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/matin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclcpp_minimal_service:/home/matin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/matin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/matin/ros2_ws/install/examples_rclcpp_minimal_client:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/matin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/matin/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('CONDA_PREFIX_3', '/home/matin/miniconda3'), ('SHELL', '/usr/bin/zsh'), ('CONDA_PREFIX_4', '/home/matin/miniconda3/envs/SpaceConcordia'), ('CONDA_PREFIX_5', '/home/matin/miniconda3'), ('CONDA_DEFAULT_ENV', 'SpaceConcordia'), ('PWD', '/home/matin/ros2_ws/build/my_cpp_pkg'), ('CONDA_EXE', '/home/matin/miniconda3/bin/conda'), ('PYTHONPATH', '/home/matin/ros2_ws/build/my_py_pkg:/home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/matin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/matin/miniconda3/envs/SpaceConcordia'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/matin/ros2_ws/install/my_cpp_pkg:/home/matin/ros2_ws/install/examples_rclcpp_wait_set:/home/matin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/matin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/matin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclcpp_minimal_service:/home/matin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/matin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/matin/ros2_ws/install/examples_rclcpp_minimal_client:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/matin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/matin/ros2_ws/install/examples_rclcpp_async_client:/home/matin/ros2_ws/install/my_py_pkg:/home/matin/ros2_ws/install/launch_testing_examples:/home/matin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclpy_minimal_service:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_client:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions:/home/matin/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.097769] (-) TimerEvent: {}
+[0.156905] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197964] (-) TimerEvent: {}
+[0.298450] (-) TimerEvent: {}
+[0.398889] (-) TimerEvent: {}
+[0.409789] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499053] (-) TimerEvent: {}
+[0.555832] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.559863] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.569251] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.584020] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599210] (-) TimerEvent: {}
+[0.608411] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.684280] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.686978] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699385] (-) TimerEvent: {}
+[0.799785] (-) TimerEvent: {}
+[0.900253] (-) TimerEvent: {}
+[1.000679] (-) TimerEvent: {}
+[1.101190] (-) TimerEvent: {}
+[1.201668] (-) TimerEvent: {}
+[1.302053] (-) TimerEvent: {}
+[1.402698] (-) TimerEvent: {}
+[1.503519] (-) TimerEvent: {}
+[1.604180] (-) TimerEvent: {}
+[1.704658] (-) TimerEvent: {}
+[1.805268] (-) TimerEvent: {}
+[1.905947] (-) TimerEvent: {}
+[2.006632] (-) TimerEvent: {}
+[2.107290] (-) TimerEvent: {}
+[2.207940] (-) TimerEvent: {}
+[2.308518] (-) TimerEvent: {}
+[2.409136] (-) TimerEvent: {}
+[2.509799] (-) TimerEvent: {}
+[2.610257] (-) TimerEvent: {}
+[2.710896] (-) TimerEvent: {}
+[2.811381] (-) TimerEvent: {}
+[2.912103] (-) TimerEvent: {}
+[3.012874] (-) TimerEvent: {}
+[3.113589] (-) TimerEvent: {}
+[3.214351] (-) TimerEvent: {}
+[3.315002] (-) TimerEvent: {}
+[3.415465] (-) TimerEvent: {}
+[3.515936] (-) TimerEvent: {}
+[3.616450] (-) TimerEvent: {}
+[3.717043] (-) TimerEvent: {}
+[3.817563] (-) TimerEvent: {}
+[3.918155] (-) TimerEvent: {}
+[4.018662] (-) TimerEvent: {}
+[4.119169] (-) TimerEvent: {}
+[4.219665] (-) TimerEvent: {}
+[4.320172] (-) TimerEvent: {}
+[4.420659] (-) TimerEvent: {}
+[4.521046] (-) TimerEvent: {}
+[4.621441] (-) TimerEvent: {}
+[4.721861] (-) TimerEvent: {}
+[4.811645] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.822018] (-) TimerEvent: {}
+[4.922430] (-) TimerEvent: {}
+[5.005920] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[5.022584] (-) TimerEvent: {}
+[5.123049] (-) TimerEvent: {}
+[5.186492] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.223273] (-) TimerEvent: {}
+[5.315623] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.316317] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/matin/ros2_ws/src/my_cpp_pkg/include\n'}
+[5.316489] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.317305] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.318537] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.318679] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.319092] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.320626] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.323459] (-) TimerEvent: {}
+[5.350873] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.354967] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/matin/ros2_ws/build/my_cpp_pkg\n'}
+[5.384578] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[5.402647] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[5.405413] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target robot_news_station\n'}
+[5.423643] (-) TimerEvent: {}
+[5.524027] (-) TimerEvent: {}
+[5.624442] (-) TimerEvent: {}
+[5.724874] (-) TimerEvent: {}
+[5.825309] (-) TimerEvent: {}
+[5.925809] (-) TimerEvent: {}
+[6.026241] (-) TimerEvent: {}
+[6.126673] (-) TimerEvent: {}
+[6.227149] (-) TimerEvent: {}
+[6.327646] (-) TimerEvent: {}
+[6.428128] (-) TimerEvent: {}
+[6.528609] (-) TimerEvent: {}
+[6.629058] (-) TimerEvent: {}
+[6.729545] (-) TimerEvent: {}
+[6.830051] (-) TimerEvent: {}
+[6.930499] (-) TimerEvent: {}
+[7.031044] (-) TimerEvent: {}
+[7.131554] (-) TimerEvent: {}
+[7.231999] (-) TimerEvent: {}
+[7.332424] (-) TimerEvent: {}
+[7.432909] (-) TimerEvent: {}
+[7.533364] (-) TimerEvent: {}
+[7.633828] (-) TimerEvent: {}
+[7.734383] (-) TimerEvent: {}
+[7.834850] (-) TimerEvent: {}
+[7.935270] (-) TimerEvent: {}
+[8.035691] (-) TimerEvent: {}
+[8.136135] (-) TimerEvent: {}
+[8.236589] (-) TimerEvent: {}
+[8.337037] (-) TimerEvent: {}
+[8.437474] (-) TimerEvent: {}
+[8.537893] (-) TimerEvent: {}
+[8.638370] (-) TimerEvent: {}
+[8.738823] (-) TimerEvent: {}
+[8.839189] (-) TimerEvent: {}
+[8.939675] (-) TimerEvent: {}
+[9.040140] (-) TimerEvent: {}
+[9.140560] (-) TimerEvent: {}
+[9.240915] (-) TimerEvent: {}
+[9.341324] (-) TimerEvent: {}
+[9.441759] (-) TimerEvent: {}
+[9.542227] (-) TimerEvent: {}
+[9.642664] (-) TimerEvent: {}
+[9.743081] (-) TimerEvent: {}
+[9.843522] (-) TimerEvent: {}
+[9.943966] (-) TimerEvent: {}
+[10.044377] (-) TimerEvent: {}
+[10.144948] (-) TimerEvent: {}
+[10.245432] (-) TimerEvent: {}
+[10.345995] (-) TimerEvent: {}
+[10.446590] (-) TimerEvent: {}
+[10.547047] (-) TimerEvent: {}
+[10.647532] (-) TimerEvent: {}
+[10.747966] (-) TimerEvent: {}
+[10.848352] (-) TimerEvent: {}
+[10.948813] (-) TimerEvent: {}
+[11.049277] (-) TimerEvent: {}
+[11.149647] (-) TimerEvent: {}
+[11.250037] (-) TimerEvent: {}
+[11.350488] (-) TimerEvent: {}
+[11.450937] (-) TimerEvent: {}
+[11.551349] (-) TimerEvent: {}
+[11.651778] (-) TimerEvent: {}
+[11.752242] (-) TimerEvent: {}
+[11.852697] (-) TimerEvent: {}
+[11.953188] (-) TimerEvent: {}
+[12.053705] (-) TimerEvent: {}
+[12.154267] (-) TimerEvent: {}
+[12.254754] (-) TimerEvent: {}
+[12.355357] (-) TimerEvent: {}
+[12.455776] (-) TimerEvent: {}
+[12.556200] (-) TimerEvent: {}
+[12.656613] (-) TimerEvent: {}
+[12.757032] (-) TimerEvent: {}
+[12.857490] (-) TimerEvent: {}
+[12.957932] (-) TimerEvent: {}
+[13.058372] (-) TimerEvent: {}
+[13.158797] (-) TimerEvent: {}
+[13.259253] (-) TimerEvent: {}
+[13.359730] (-) TimerEvent: {}
+[13.460249] (-) TimerEvent: {}
+[13.560808] (-) TimerEvent: {}
+[13.661312] (-) TimerEvent: {}
+[13.761870] (-) TimerEvent: {}
+[13.862513] (-) TimerEvent: {}
+[13.963156] (-) TimerEvent: {}
+[14.063626] (-) TimerEvent: {}
+[14.164070] (-) TimerEvent: {}
+[14.264518] (-) TimerEvent: {}
+[14.364934] (-) TimerEvent: {}
+[14.465364] (-) TimerEvent: {}
+[14.565867] (-) TimerEvent: {}
+[14.666316] (-) TimerEvent: {}
+[14.766790] (-) TimerEvent: {}
+[14.867326] (-) TimerEvent: {}
+[14.967846] (-) TimerEvent: {}
+[15.068297] (-) TimerEvent: {}
+[15.168709] (-) TimerEvent: {}
+[15.269273] (-) TimerEvent: {}
+[15.369783] (-) TimerEvent: {}
+[15.470278] (-) TimerEvent: {}
+[15.570770] (-) TimerEvent: {}
+[15.671195] (-) TimerEvent: {}
+[15.771655] (-) TimerEvent: {}
+[15.872095] (-) TimerEvent: {}
+[15.972555] (-) TimerEvent: {}
+[16.072969] (-) TimerEvent: {}
+[16.173415] (-) TimerEvent: {}
+[16.273879] (-) TimerEvent: {}
+[16.374314] (-) TimerEvent: {}
+[16.474789] (-) TimerEvent: {}
+[16.575220] (-) TimerEvent: {}
+[16.675720] (-) TimerEvent: {}
+[16.776177] (-) TimerEvent: {}
+[16.876731] (-) TimerEvent: {}
+[16.977212] (-) TimerEvent: {}
+[17.077718] (-) TimerEvent: {}
+[17.178196] (-) TimerEvent: {}
+[17.278688] (-) TimerEvent: {}
+[17.379182] (-) TimerEvent: {}
+[17.479735] (-) TimerEvent: {}
+[17.580148] (-) TimerEvent: {}
+[17.680566] (-) TimerEvent: {}
+[17.780934] (-) TimerEvent: {}
+[17.881376] (-) TimerEvent: {}
+[17.981946] (-) TimerEvent: {}
+[18.082485] (-) TimerEvent: {}
+[18.182976] (-) TimerEvent: {}
+[18.283403] (-) TimerEvent: {}
+[18.383830] (-) TimerEvent: {}
+[18.484279] (-) TimerEvent: {}
+[18.584837] (-) TimerEvent: {}
+[18.685262] (-) TimerEvent: {}
+[18.785676] (-) TimerEvent: {}
+[18.886091] (-) TimerEvent: {}
+[18.986504] (-) TimerEvent: {}
+[19.086983] (-) TimerEvent: {}
+[19.187418] (-) TimerEvent: {}
+[19.287823] (-) TimerEvent: {}
+[19.388364] (-) TimerEvent: {}
+[19.488805] (-) TimerEvent: {}
+[19.589239] (-) TimerEvent: {}
+[19.689687] (-) TimerEvent: {}
+[19.762232] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[19.789893] (-) TimerEvent: {}
+[19.890511] (-) TimerEvent: {}
+[19.991015] (-) TimerEvent: {}
+[20.091524] (-) TimerEvent: {}
+[20.191959] (-) TimerEvent: {}
+[20.292381] (-) TimerEvent: {}
+[20.327274] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[20.340301] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[20.373828] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[20.382935] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matin/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/matin/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(SpaceConcordia)'), ('USER', 'matin'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/matin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/matin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matin'), ('OLDPWD', '/home/matin'), ('LESS', '-R'), ('CONDA_SHLVL', '6'), ('ZSH', '/home/matin/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/matin/ros2_ws/install'), ('LOGNAME', 'matin'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/57782_interop'), ('NAME', 'Matin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/matin/miniconda3/envs/SpaceConcordia/bin:/home/matin/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/matin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matin/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('WT_SESSION', '8a158ae6-b30a-493d-b694-e539b8bba7e6'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('CONDA_PREFIX_1', '/home/matin/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CONDA_PREFIX_2', '/home/matin/miniconda3/envs/SpaceConcordia'), ('CONDA_PYTHON_EXE', '/home/matin/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/home/matin/ros2_ws/install/my_py_pkg:/home/matin/ros2_ws/install/my_cpp_pkg:/home/matin/ros2_ws/install/launch_testing_examples:/home/matin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclpy_minimal_service:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_client:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions:/home/matin/ros2_ws/install/examples_rclpy_executors:/home/matin/ros2_ws/install/examples_rclcpp_wait_set:/home/matin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/matin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/matin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclcpp_minimal_service:/home/matin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/matin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/matin/ros2_ws/install/examples_rclcpp_minimal_client:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/matin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/matin/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('CONDA_PREFIX_3', '/home/matin/miniconda3'), ('SHELL', '/usr/bin/zsh'), ('CONDA_PREFIX_4', '/home/matin/miniconda3/envs/SpaceConcordia'), ('CONDA_PREFIX_5', '/home/matin/miniconda3'), ('CONDA_DEFAULT_ENV', 'SpaceConcordia'), ('PWD', '/home/matin/ros2_ws/build/my_cpp_pkg'), ('CONDA_EXE', '/home/matin/miniconda3/bin/conda'), ('PYTHONPATH', '/home/matin/ros2_ws/build/my_py_pkg:/home/matin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/matin/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/matin/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/matin/miniconda3/envs/SpaceConcordia'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/matin/ros2_ws/install/my_cpp_pkg:/home/matin/ros2_ws/install/examples_rclcpp_wait_set:/home/matin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/matin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/matin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclcpp_minimal_service:/home/matin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/matin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/matin/ros2_ws/install/examples_rclcpp_minimal_client:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/matin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/matin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/matin/ros2_ws/install/examples_rclcpp_async_client:/home/matin/ros2_ws/install/my_py_pkg:/home/matin/ros2_ws/install/launch_testing_examples:/home/matin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/matin/ros2_ws/install/examples_rclpy_minimal_service:/home/matin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/matin/ros2_ws/install/examples_rclpy_minimal_client:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/matin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/matin/ros2_ws/install/examples_rclpy_guard_conditions:/home/matin/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[20.390304] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.391238] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[20.391692] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/matin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[20.392520] (-) TimerEvent: {}
+[20.396505] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/matin/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[20.397063] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[20.397291] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[20.397683] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[20.397896] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[20.398303] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[20.398522] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[20.398763] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[20.398836] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[20.398950] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[20.399376] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[20.399638] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[20.399736] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[20.399803] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[20.399865] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[20.399926] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/matin/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[20.401590] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[20.492690] (-) TimerEvent: {}
+[20.577921] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[20.580255] (-) EventReactorShutdown: {}
