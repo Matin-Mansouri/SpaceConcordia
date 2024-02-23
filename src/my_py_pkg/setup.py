@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "robot_news_station = my_py_pkg.robot_news_station:main"
+            "robot_news_station = my_py_pkg.robot_news_station:main",
+            "smartphone = my_py_pkg.smartphone:main"
         ],
     },
 )
